@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+
+.hidden {
+  display: none;
+}
+
+.hidden1 {
+  display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+.attribution a {
+  color: white;
+}
+
+.active {
+  background-color: white;
+  color: black;
+  /* cursor: pointer; */
+  border: none;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Overpass", sans-serif;
+  min-height: 93vh;
+  background-color: hsl(216, 12%, 8%);
+}
+
+.stars {
+  background-color: hsl(218, 13%, 24%);
+  max-width: fit-content;
+  padding: 10px;
+  border-radius: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.container {
+  border-radius: 20px;
+  background-color: hsl(213, 19%, 18%);
+  padding: 2em;
+  max-width: fit-content;
+  color: hsl(0, 0%, 100%);
+}
+
+.desc {
+  color: rgb(167, 167, 167);
+}
+
+.container p {
+  color: rgb(167, 167, 167);
+}
+
+.container2 {
+  border-radius: 20px;
+  background-color: hsl(213, 19%, 18%);
+  padding: 2em;
+  max-width: fit-content;
+  text-align: center;
+  color: white;
+}
+
+.rating {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.rating button {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  /* background-color: aqua; */
+}
+
+.button {
+  background-color: hsl(218, 13%, 24%);
+  color: rgb(167, 167, 167);
+  border: none;
+}
+
+.button:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: black;
+}
+
+.submit {
+  margin-top: 10px;
+  width: 100%;
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 20px;
+  border: none;
+  padding-block: 10px;
+}
+
+.submit:hover {
+  background-color: white;
+}
+
+.container-rating {
+  text-align: center;
+}
+
+.img {
+  text-align: center;
+}
+
+.you {
+  background-color: hsl(218, 13%, 24%);
+  width: auto;
+  margin-inline: 55px;
+  border-radius: 25px;
+  color: hsl(25, 97%, 53%);
+  padding-block: 10px;
+}
